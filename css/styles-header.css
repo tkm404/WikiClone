@@ -3,14 +3,40 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: cadetblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(136, 158, 158);
 }
 #logo {
   width: 50px;
   float: left;
+  margin-top: 4px;
+  margin-left: 5px; 
+}
+.middle-section {
+  flex: 1;
+  margin-left: 35px;
+  margin-right: 70px;
+  max-width: 500px;
+  display: flex;
+}
+.search-bar {
+  flex: 1;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.search-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 16px;
 }
 .search-button {
+  margin-top: 10px;
+  margin-right: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
