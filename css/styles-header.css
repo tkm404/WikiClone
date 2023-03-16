@@ -1,0 +1,16 @@
+.header {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: cadetblue;
+}
+#logo {
+  width: 50px;
+  float: left;
+}
+.search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
